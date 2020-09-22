@@ -1,0 +1,98 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+
+<head>
+	<meta charset="utf-8">
+  	<title> Projeto Pokémon </title>
+  	<meta name="Keywords" content=" Aplicativo Web com os tipos de Pokémon"> <!-- Palavras chaves para os mecanismos de busca -->
+  	<meta name="autor" content="Marley Andrade"> 
+  	<meta name="viewrport" content="width=device-width, initial-scalet=1">
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"> <!-- ícones utilizados na página -->
+  	<link href='<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,700;1,500&display=swap" rel="stylesheet">' type='text/css'> <!-- fontes diretas do Google Fontes -->
+  	<link rel="icon" href="img/logo.png"> <!-- Configuração do icone. -->
+  	<meta content="text/html"; charset="iso-8859-2" http-equiv="Content-Type">
+  	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+	
+<body>	
+<div class="content"> 	
+	<!-- CABEÇALHO -->
+   	<header class="container cabecalho">
+    	<a href="index.html"><h1 class="logo" src="img/perfil5.png" a></h1></a>
+  
+    	<button class="btn-menu"> <i class="fa fa-bars fa-lg"></i> </button>
+
+    	<nav class="menu">
+      	<a class="btn-close"> <i class="fa fa-times"></i> </a>
+
+      	<ul>
+        	<li><a href="index.html">Home</a></li>
+        	<li><a href="Pokemon.html">Pokémon</a></li>
+        	
+      	</ul>
+    	</nav>
+   	</header>
+
+
+	 <div id="div3">
+         <img src="img/Dragon1.png">
+     </div>
+		
+	<div id="div4">
+          <p></p>
+            <img src="img/pokemon.png">
+    </div>
+            
+
+	   
+	<!-- CORPO -->
+	<main class="container">
+		<article class="servico">
+	 		<h1> <p style="float: center;">Pokémon em Destaque </p><br>
+	 	</article>
+			
+		<article class="servico test">
+			  <div class="inner">
+				<h3>Rhydon</h3>
+				<p>Ele começa a andar sobre as patas traseiras após a evolução. Ele pode fazer buracos em pedras com seu chifre.</p>
+			  </div>
+
+			  <div class="inner">
+				<h3>Rhyperior</h3>
+				<p>Ele pode carregar até três projéteis por braço nos buracos em suas mãos. O que sai desses buracos pode ser pedras ou Roggenrola.</p>
+			  </div>
+			  <div class="inner">
+				<h3>Butterfree </h3>
+				<p>Em batalha, ele bate suas asas em grande velocidade para liberar poeira altamente tóxica no ar.</p>
+			  </div>
+		</article>
+	</main>
+
+
+	<!-- RODAPÉ -->
+	<footer class="container footer">
+    	<p class="copyright"> Copyright © Pokémon 2020. Todos os direitos reservados.</p>
+  	</footer>
+
+ <!-- JQUERY (Java Script) -->
+	<script src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
+  	<script src="https://www.w3schools.com/lib/w3.js"></script>
+
+
+  <!-- BOTÃO MENU -->
+	<script>
+		/* Quando clicar no ícone, ele abre o menu que estava oculto. show: ABRE!*/
+		$(".btn-menu").click(function(){
+			$(".menu").show();
+		});
+		/* Quando clicar no X, ele fecha o menu. hide: FECHA! */
+		$(".btn-close").click(function(){
+			$(".menu").hide();
+		});
+	</script>
+ 
+
+</body>
+</html>
